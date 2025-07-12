@@ -1,14 +1,22 @@
 # Student_Teacher_Booking
 tudent-Teacher Booking Appointment
+
 This is a Firebase-powered web app that allows students to book appointments and teachers (admins) to approve or manage them via an admin dashboard.
 
+
 🚀 Features
+
 Student registration and login with Firebase Auth
 Students can book date/time-based appointments
 Admin users can approve or delete appointments
 All data is stored in Firebase Firestore
+
 🛠️ Technologies Used
-HTML, CSS, JavaScript
+
+HTML, 
+CSS, 
+JavaScript
+
 Firebase Authentication & Firestore
 Firebase Modular SDK (v9)
 📁 File Structure
@@ -18,6 +26,7 @@ Firebase Modular SDK (v9)
 ├── firebase-config.js   # Firebase initialization
 ├── README.md            # Project description
 🔧 Getting Started
+
 Clone or download this project
 Replace the Firebase config values in firebase-config.js
 Enable Email/Password authentication in Firebase console
@@ -34,13 +43,18 @@ service cloud.firestore {
 👩‍🏫 Admin Access
 Admin emails are defined in main.js:
 
+
 const adminEmails = ['admin@example.com'];
+
 Update that list with real teacher/admin emails.
 
 📌 Future Improvements
+
 Password reset support
 Pagination/filter for admin panel
 Firebase Hosting support
 Email notifications via Firebase Functions
+
+
 📜 License
 MIT License — Free to use and adapt.
