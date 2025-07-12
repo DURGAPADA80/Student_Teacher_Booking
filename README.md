@@ -19,11 +19,17 @@ JavaScript
 
 Firebase Authentication & Firestore
 Firebase Modular SDK (v9)
+
 📁 File Structure
+
 ├── index.html           # App UI and form
+
 ├── style.css            # Page styling
+
 ├── main.js              # Application logic (auth, Firestore actions)
+
 ├── firebase-config.js   # Firebase initialization
+
 ├── README.md            # Project description
 🔧 Getting Started
 
@@ -40,9 +46,10 @@ service cloud.firestore {
     }
   }
 }
-👩‍🏫 Admin Access
-Admin emails are defined in main.js:
 
+👩‍🏫 Admin Access
+
+Admin emails are defined in main.js:
 
 const adminEmails = ['admin@example.com'];
 
@@ -57,4 +64,5 @@ Email notifications via Firebase Functions
 
 
 📜 License
+
 MIT License — Free to use and adapt.
